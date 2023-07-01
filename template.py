@@ -3,7 +3,7 @@ from pathlib import Path
 import logging
 
 # format for creating log
-logging.basicConfig(level = logging.INFO, format = '[%(asctime)s]: %(messages)s:')
+logging.basicConfig(level = logging.INFO, format = '[%(asctime)s]: %(message)s:')
 
 # allocating name of the project
 project_name = "cnnCloud"
@@ -26,8 +26,7 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb",
-    "test.py"
+    "research/trials.ipynb"
 
 ]
 
